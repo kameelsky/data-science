@@ -6,9 +6,7 @@ prompt = argv[1:]
 def git(prompt: list) -> None:
     message = " ".join(prompt)
     print(f"Commit message: {message}")
-    run("git add .", shell=True)
-    run(f"git commit -m '{message}'", shell=True)
-    run("git push -u origin main", shell=True)
+    run(f"git add . && git commit -m {message} && git push -u origin main", shell=True)
 
 def main(prompt: list) -> None:
     if len(prompt) > 0:

@@ -8,7 +8,7 @@ def git(prompt: list) -> None:
     while True:
         input_ = input(f"\n>>> Commit message: {message}\n\n>>> Do you want to proceed? (y/n): ")
         if input_.lower() == "y":
-            run(f"git add . && git commit -m {message} && git push -u origin main", shell=True)
+            run(f"git add . && git commit -m '{message}' && git push -u origin main", shell=True)
             break
         else:
             break

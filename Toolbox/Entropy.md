@@ -1,2 +1,0 @@
-# Entropy of data
-

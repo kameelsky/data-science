@@ -17,7 +17,8 @@ def main(prompt: list) -> None:
     if len(prompt) > 0:
         git(prompt=prompt)
     else:
-        print("No message provided.")
+        print("\n>>> No message provided.\n>>> git status\n")
+        run(f"git status", shell=True)
         exit()
 
 if __name__=="__main__":

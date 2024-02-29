@@ -1,6 +1,6 @@
 # Content
 
-## Maximum Likelihood Estimation (MLE) and expected value for a continous variable
+## Maximum Likelihood Estimation (MLE) and expected value for a continuous variable
 
 In [MLE_Expected_value](./Toolbox/MLE_Expected_value.ipynb) jupyter notebook I translate and guide step by step through the subject of **Maximum Likelihood Estimation (MLE)**, showing how to calculate it for an exponential distribution. Additionally using sympy we calculate an **expected value** for mentioned distribution.
 

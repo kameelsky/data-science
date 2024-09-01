@@ -1,5 +1,7 @@
 # Gradient descent algorithm to minimize the cost function [[notebook](./Toolbox/GD_minimization.ipynb)]
 
+# Gradient descent algorithm to maximize the log-likelihood function [[notebook](./Toolbox/GD_maximization.ipynb)]
+
 # Design of Experiments -  Screening and optimization designs [[notebook](./Toolbox/DOE.ipynb)]
 
 ***Screen***

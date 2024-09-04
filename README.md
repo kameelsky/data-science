@@ -1,6 +1,10 @@
 # Gradient descent algorithm to minimize the cost function [[notebook](./Toolbox/GD_minimization.ipynb)]
 
-I am demonstrating a basic machine learning algorithm and its application in minimizing a loss function to train a linear model. The parameters are computed algebraically using the SymPy library and then compared to the parameters learned by our algorithm and the [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) one. The theory will be explained in a clear and accessible manner, along with the derivation of the relevant formulas.
+I am demonstrating a basic machine learning algorithm and its application in minimizing a loss function to train a linear model. The parameters are computed algebraically using the SymPy library and then compared to the parameters learned by our algorithm and the [scikit-learn: LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) one. The theory will be explained in a clear and accessible manner, along with the derivation of the relevant formulas.
+
+# Gradient ascent algorithm to maximize the likelihood of observing the data [[notebook](./Toolbox/GA_maximization.ipynb)]
+
+Following previous chapter I am demonstrating how to train a custom logistic regression model using Gradient Descent algorithm. As previously we compare the performance to the [scikit-learn: LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) one. The theory will be explained in a clear and accessible manner, along with the derivation of the relevant formulas.
 
 # Design of Experiments -  Screening and optimization designs [[notebook](./Toolbox/DOE.ipynb)]
 

@@ -1,3 +1,5 @@
+# Continous and discrete Fourier transformation [[notebook](./Toolbox/Fourier.ipynb)]
+
 # Gradient descent algorithm to minimize the cost function [[notebook](./Toolbox/GD_minimization.ipynb)]
 
 I am demonstrating a basic machine learning algorithm and its application in minimizing a loss function to train a linear model. The parameters are computed algebraically using the SymPy library and then compared to the parameters learned by our algorithm and the [scikit-learn: LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) one. The theory will be explained in a clear and accessible manner, along with the derivation of the relevant formulas.

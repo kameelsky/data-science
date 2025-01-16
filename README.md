@@ -1,3 +1,14 @@
+# Design of Experiments -  Screening and optimization designs [[notebook](./Toolbox/DOE.ipynb)]
+
+***Screen***
+- How to build a **Full-factorial design ($2^k$)** using categorical data.
+- Can we make the same conclusions by reducing the number of runs using a **Fractional-factorial design ($2^{k-n}$)**? Concepts of resolution and factor aliasing will be explained.
+- Build and validate a model to predict the output.
+
+***Optimization***
+- How to utilize the **Central Composite Design (CCD)**, and build a **response surface model (RSP)**. 
+- Step-by-step calculation and classification of a critical points.
+
 # Continous and discrete Fourier transformation [[notebook](./Toolbox/Fourier.ipynb)]
 
 The document provides an exploration of the Continuous Fourier Transform and the Discrete Fourier Transform (DFT), two fundamental mathematical techniques used for analyzing signals in the frequency domain
@@ -9,17 +20,6 @@ I am demonstrating a basic machine learning algorithm and its application in min
 # Gradient ascent algorithm to maximize the likelihood of observing the data [[notebook](./Toolbox/GA_maximization.ipynb)]
 
 Following previous chapter I am demonstrating how to train a custom logistic regression model using Gradient Descent algorithm. As previously we compare the performance to the [scikit-learn: LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) one. The theory will be explained in a clear and accessible manner, along with the derivation of the relevant formulas.
-
-# Design of Experiments -  Screening and optimization designs [[notebook](./Toolbox/DOE.ipynb)]
-
-***Screen***
-- How to build a **Full-factorial design ($2^k$)** using categorical data.
-- Can we make the same conclusions by reducing the number of runs using a **Fractional-factorial design ($2^{k-n}$)**? Concepts of resolution and factor aliasing will be explained.
-- Build and validate a model to predict the output.
-
-***Optimization***
-- How to utilize the **Central Composite Design (CCD)**, and build a **response surface model (RSP)**. 
-- Step-by-step calculation and classification of a critical points. 
 
 # Maximum Likelihood Estimation (MLE) from scratch [[notebook](./Toolbox/MLE_Expected_value.ipynb)]
 
